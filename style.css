@@ -1,0 +1,165 @@
+ body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+ }
+
+ h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    margin: 50px auto 0 auto;
+    padding-top: 60px;
+    color: #66BFBF;
+ }
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+  }
+
+  h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    margin-top: 0;
+  }
+
+  a{
+    color: #11999E;
+  }
+
+ .top-container{
+    background-color: #e4f9f5;
+    position: relative;
+ }
+
+ .pro{
+    text-decoration: underline;
+ }
+
+ .title{
+    text-align: center;
+    padding-top: 2%;
+ }
+ 
+.bottom-cloud{
+    position: absolute;
+    left: 20%;
+ }
+
+ .top-cloud{
+    position: absolute;
+    left: 70%;
+    top: 5%;
+ }
+
+ .bottom-mountain{
+    position: relative;
+    left: 30%;
+ }
+
+ .profile{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    padding: 2% 5%;
+    line-height: 2rem;
+    color: #40514e;
+ }
+
+ .profile img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+ }
+
+ .skills{
+    background-color: #F7F5EB;
+    padding: 3% 0 5%;
+ }
+
+ .skills h2{
+    text-align: center;
+ }
+
+ .skill-row{
+    margin: 100px auto;
+    width: 50%;
+ }
+
+ .skill-row p{
+    margin-top: 0;
+    line-height: 2rem;
+ }
+ 
+ .code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+ }
+
+ .layer-img{
+    float: right;
+    width: 25%;
+    margin-left: 30px;
+ }
+
+ hr{
+    width: 25%;
+    color: #eaf6f6;
+ }
+
+ .contact-me{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    padding: 10% 5%;
+    line-height: 2rem;
+ }
+
+ .contact-me .btn{
+    display: inline-block;
+    background-image: linear-gradient(to bottom,#5BC0F8, #39B5E0);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+ }
+
+ .contact-me .btn:hover{
+    opacity: 0.8;
+ }
+
+ .bottom-container{
+    background-color: #66bfbf;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10% 0;
+    position: relative;
+ }
+
+ .bottom-container p{
+    position: absolute;
+    bottom: 0;
+    left: 43%;
+    color: white;
+ }
+
+ .footer-link{
+    margin:0 15px;
+    text-decoration: none;
+    color: #11999e;
+ }
+
+ .footer-link:hover{
+    text-decoration: underline;
+ }
+
+ .fa-brands{
+    color: white;
+    margin-right: 10px;
+ }
+ 
+ 
