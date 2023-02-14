@@ -75,6 +75,7 @@
  .skills{
     background-color: #F7F5EB;
     padding: 3% 0 5%;
+    margin-top: 5%;
  }
 
  .skills h2{
@@ -163,3 +164,32 @@
  }
  
  
+ @media screen and (max-width: 600px){
+   h1{
+      font-size: 4rem;
+   }
+
+   h2{
+      font-size: 1.9rem;
+   }
+   .bottom-cloud, .top-cloud{
+      width: 30%;
+   }
+
+   .top-cloud{
+      left: 60%;
+   }
+
+   .bottom-mountain{
+      margin-top: 20px;
+      width: 40%;
+   }
+
+   .bottom-container p{
+      left: 25%;
+   }
+
+   .contact-me h2{
+      line-height: 3rem;
+   }
+ }
