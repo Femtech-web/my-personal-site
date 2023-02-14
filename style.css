@@ -30,6 +30,7 @@
  .top-container{
     background-color: #e4f9f5;
     position: relative;
+    height: 100vh;
  }
 
  .pro{
@@ -44,6 +45,7 @@
 .bottom-cloud{
     position: absolute;
     left: 20%;
+    top: 50%;
  }
 
  .top-cloud{
@@ -53,8 +55,9 @@
  }
 
  .bottom-mountain{
-    position: relative;
-    left: 30%;
+    position: absolute;
+    bottom: 0;
+    left: calc(30%);
  }
 
  .profile{
@@ -181,12 +184,16 @@
    }
 
    .bottom-mountain{
-      margin-top: 20px;
-      width: 40%;
+      width: 70%;
+      left: 20%;
    }
 
    .bottom-container p{
       left: 25%;
+   }
+
+   .contact-me, .profile{
+      width: 85%;
    }
 
    .contact-me h2{
